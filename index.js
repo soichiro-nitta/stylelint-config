@@ -4,6 +4,7 @@ module.exports = {
     'stylelint-config-prettier',
     'stylelint-config-rational-order',
   ],
+  ignoreFiles: ['/node_modules', '/.next', '*.*', '!*.css'],
   rules: {
     'at-rule-no-unknown': [
       true,
