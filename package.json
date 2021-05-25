@@ -1,0 +1,28 @@
+{
+  "name": "@soichiro_nitta/stylelint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Soichiro Nitta <soic1226@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soichiro-nitta/stylelint-config.git"
+  },
+  "homepage": "https://github.com/soichiro-nitta/stylelint-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0"
+  },
+  "devDependencies": {
+    "@soichiro_nitta/eslint-config": "^1.0.3",
+    "@soichiro_nitta/prettier-config": "^0.0.9",
+    "eslint": "^7.9.0",
+    "prettier": "^2.1.2"
+  }
+}
