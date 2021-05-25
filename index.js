@@ -1,5 +1,5 @@
 // var OFF = 'off'
-// var WARN = 'warn'
+var WARN = 'warn'
 // var ERROR = 'error'
 
 module.exports = {
@@ -22,5 +22,6 @@ module.exports = {
         ],
       },
     ],
+    'no-descending-specificity': WARN,
   },
 }
