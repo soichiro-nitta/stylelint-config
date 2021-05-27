@@ -9,7 +9,7 @@ module.exports = {
     'stylelint-config-prettier',
     'stylelint-prettier/recommended',
   ],
-  ignoreFiles: ['/node_modules', '/.next', '*.*', '!*.css'],
+  ignoreFiles: [],
   plugins: ['stylelint-prettier'],
   rules: {
     'at-rule-no-unknown': [
