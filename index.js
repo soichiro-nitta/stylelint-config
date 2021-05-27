@@ -9,7 +9,7 @@ module.exports = {
     'stylelint-config-prettier',
     'stylelint-prettier/recommended',
   ],
-  ignoreFiles: [],
+  ignoreFiles: ['*.json'],
   plugins: ['stylelint-prettier'],
   rules: {
     'at-rule-no-unknown': [
