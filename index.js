@@ -1,4 +1,4 @@
-// var OFF = 'off'
+var OFF = 'off'
 // var WARN = 'warn'
 // var ERROR = 'error'
 
@@ -24,6 +24,7 @@ module.exports = {
         ],
       },
     ],
+    'function-calc-no-invalid': OFF,
     'no-descending-specificity': null,
   },
 }
